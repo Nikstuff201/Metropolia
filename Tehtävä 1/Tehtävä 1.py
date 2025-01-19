@@ -1,2 +1,2 @@
-nimi=input("Anna nimi: ")
+nimi="Nikita Rybakov"
 print (f"Hei, {nimi}!")
