@@ -13,4 +13,4 @@ if (answer==true) {
 else {
   result='The square root is not calculated';
 }
-document.querySelector('#vastaus').innerHTML=`${result}`;
+document.querySelector("#vastaus").innerHTML=`${result}`;
