@@ -1,7 +1,7 @@
 'use strict';
 
 
-function conсat (list) {
+function conсat(list) {
   let result=''
   for (let name of list) {
     result+=name;

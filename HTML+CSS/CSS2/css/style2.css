@@ -1,0 +1,40 @@
+@font-face {
+    font-family: BungeeTint;
+    src: url("BungeeTint-Regular.ttf") format("truetype");
+}
+
+
+
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+html {
+    font-family: BungeeTint;
+}
+
+header {
+    background-color: chartreuse;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: chocolate;
+}
+
+li a:hover::after {
+    content: ' @';
+}
+
+main {
+    background-color: aqua;
+}
+
+footer {
+    background-color: gray;
+}
