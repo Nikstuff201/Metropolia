@@ -111,5 +111,15 @@ for (let picture of picArray) {
   article.appendChild(h2);
   article.appendChild(figure);
   article.appendChild(p);
+  let dialog=document.querySelector('dialog');
+  const span=dialog.querySelector('span');
+  span.addEventListener('click',()=>{dialog.close()});
+  function largeimg(evt,img,dialog) {
+    const modalImg=dialog.querySelector('img');
+    modalImg.src=img;
+    modalImg.alt='Picture';
+    dialog.showModal();
+    }
+  article.addEventListener('click',(evt)=>{largeimg(evt,picture.image.large,dialog)});
   join.appendChild(article);
-}
+  }
